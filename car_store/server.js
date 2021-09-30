@@ -18,7 +18,7 @@ require('./routes/updateByOwner.js')(app);
 require('./routes/homeOlderCars.js')(app);
 
   //Connection to database - REPLACE uri with your own database, cluster, username, and password
-  const uri = 'mongodb+srv://shubham:shubham-123@cluster0.i3mq7.mongodb.net/carDb?retryWrites=true&w=majority';
+  const uri = ''; // add mongodb uri
   mongoose.Promise = global.Promise;
   
   mongoose.connect(uri, {
